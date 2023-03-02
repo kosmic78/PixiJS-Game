@@ -1,0 +1,95 @@
+body {
+  /* position: relative; */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+  width: calc(100vw);
+  /* Hide scrollbars */
+  overflow: hidden;
+  /* border: "thick solid #00FFFF"; */
+}
+
+/* Header/Logo Title */
+.header {
+  padding-top: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.info-box {
+  width: 50%;
+  max-width: 200px;
+  padding: 5px;
+}
+
+/* Page Content */
+.content {
+  padding: 20px;
+  margin: auto;
+  max-width: 640px;
+}
+
+#app-container {
+  width: 100%;
+  aspect-ratio: 640/480;
+  padding: 0;
+  overflow: hidden;
+}
+
+.controlls {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.controlls-vertical {
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+  padding: 5px;
+}
+
+.controlls-horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.controlls-horizontal button {
+  color: #01A2E8;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid black;
+  padding: 5px 5px;
+  font-weight: 900;
+  font-size: 30px;
+  width: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.controlls-horizontal button:hover {
+  background-color: gainsboro;
+}
+
+.controlls-horizontal button:nth-child(even) {
+  border-radius: 0px 10px 10px 0px;
+}

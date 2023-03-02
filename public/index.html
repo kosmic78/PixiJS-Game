@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0,
+    maximum-scale=1.0,
+    user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="info-box border" id="shapes-count">Number of current shapes</div>
+            <div class="info-box border" id="shapes-area">Surface area ocupied by shapes</div>
+        </div>
+        <div id="app-container" class="border">
+        </div>
+        <div class="controlls">
+            <div class="controlls-vertical">
+                <div class="controlls-horizontal">
+                    <button id="shape-rate-add">+</button>
+                    <button id="shape-rate-subtract">-</button>
+                </div>
+                <span id="shape-rate">Number of shapes per second</span>
+            </div>
+            <div class="controlls-vertical">
+                <div class="controlls-horizontal">
+                    <button id="gravity-add">+</button>
+                    <button id="gravity-subtract">-</button>
+                </div>
+                <span id="gravity-value">Gravity value</span>
+            </div>
+        </div>
+    </div>
+    <script src="build/main.bundle.js"></script>
+</body>
+
+</html>
